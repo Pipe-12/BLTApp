@@ -21,7 +21,6 @@
         <activity
             android:name="com.clienteblebmp280.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.ClienteBLEBMP280">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

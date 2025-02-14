@@ -65,8 +65,8 @@ dependencies {
 
     //DLE
 
-    implementation("com.github.weliem:blessed-kotlin:3.0.8")
-    implementation("com.jakewharton.timber:timber:5.0.1")
+    implementation(libs.blessed.kotlin)
+    implementation(libs.timber)
 }
 
 // Allow references to generated code
