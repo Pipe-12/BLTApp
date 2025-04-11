@@ -1,6 +1,6 @@
 package com.clienteblebmp280.data
 
-import com.clienteblebmp280.data.BLT.BLTClient
+import com.clienteblebmp280.data.ble.BLTClient
 import javax.inject.Inject
 
 class TemperaturePressuereRepositori @Inject constructor(

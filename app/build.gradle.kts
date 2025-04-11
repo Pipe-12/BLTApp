@@ -62,11 +62,13 @@ dependencies {
     //dagger hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
+    implementation(libs.androidx.hilt.navigation.compose)
+    //BLE
 
-    //DLE
+    implementation(libs.timber)
 
     implementation(libs.blessed.kotlin)
-    implementation(libs.timber)
+
 }
 
 // Allow references to generated code
